@@ -50,6 +50,7 @@
         display: inline-block;
         margin-top: 15px;
         border: none;
+        text-align: center;
     }
 
     .btn:hover {
@@ -92,6 +93,10 @@
      .mt-16 {
         margin-top: 16px !important;
     }
+
+    .mt-32 {
+        margin-top: 32px !important;
+    }
     /* -------------------------------------------------- */
      /* Main  */
     #main {}
@@ -105,7 +110,6 @@
          height: 46px;
          background-color: #000;
          z-index: 1;
-         overflow: hidden;
      }
     
      #nav {
@@ -163,6 +167,13 @@
     
      #nav .nav-arrow-down {
          font-size: 12px;
+     }
+
+     #header .mobile-menu-btn {
+         position: absolute;
+         top: 0;
+         right: 0;
+         display: none;
      }
     
      #header .mobile-menu-btn,
@@ -257,7 +268,7 @@
      }
 
      #content .members-list {
-         margin-top: 48px;
+         margin-top: 32px;
      }
 
      #content .member-name {
@@ -309,7 +320,7 @@
     
     /* Places */
     .places-list {
-        margin-top: 32px;
+        margin-top: 16px;
     }
 
     .place-img {
